@@ -1,0 +1,31 @@
+:root{color-scheme:dark;font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;background:#0b141b;color:#f2f6f6;line-height:1.7}
+*{box-sizing:border-box}
+body{margin:0}
+a{color:#7de0bd;text-underline-offset:.2em}
+a:hover,a:focus-visible{color:#b0f2d9}
+.wrap{width:min(100% - 36px,780px);margin:auto}
+header{border-bottom:1px solid #23343c}
+nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:17px 0}
+nav a{text-decoration:none}
+.brand{font-weight:800;color:#f2f6f6;letter-spacing:.02em}
+.navlinks{display:flex;flex-wrap:wrap;gap:20px;font-size:.9rem}
+main{padding:56px 0 70px}
+.eyebrow{margin:0 0 9px;color:#7de0bd;font-size:.8rem;font-weight:800;letter-spacing:.23em}
+h1{font-size:clamp(2rem,6vw,3.2rem);letter-spacing:-.04em;line-height:1.25;margin:0 0 20px}
+.lead{font-size:1.1rem;color:#b8c8cc;max-width:650px;margin:0 0 34px}
+.route{height:5px;width:210px;border-radius:9px;background:#7de0bd;position:relative;margin:30px 0 45px}
+.route:before,.route:after{content:"";position:absolute;top:-5px;width:15px;height:15px;border-radius:50%;background:#7de0bd}
+.route:before{left:0}.route:after{right:0}
+section{padding:28px 0;border-top:1px solid #23343c}
+h2{font-size:1.35rem;margin:0 0 15px}
+h3{font-size:1rem;margin:25px 0 7px}
+p,li{color:#b8c8cc}
+ul{padding-left:1.4em}
+.card{background:#17242d;border:1px solid #2b4148;border-radius:18px;padding:20px 24px;margin:14px 0}
+.card h3{margin:0 0 5px;color:#f2f6f6}
+.card p{margin:0}
+.button{display:inline-block;background:#7de0bd;color:#10201f;padding:12px 18px;border-radius:12px;font-weight:800;text-decoration:none}
+.button:hover,.button:focus-visible{color:#10201f;background:#b0f2d9}
+footer{border-top:1px solid #23343c;padding:24px 0 36px;color:#849a9e;font-size:.85rem}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+@media(max-width:520px){nav{align-items:flex-start;flex-direction:column}.navlinks{gap:14px}main{padding-top:42px}}
